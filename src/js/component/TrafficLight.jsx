@@ -8,19 +8,13 @@ const TrafficLigth = () => {
 		<div className="trafficlight">
 			<div
 				className={`light red ${color.red}`}
-				onClick={() =>
-					setcolor({ red: "on", yellow: "", green: "" })
-				}></div>
+				onClick={() => setcolor({ red: "on" })}></div>
 			<div
 				className={`light yellow ${color.yellow}`}
-				onClick={() =>
-					setcolor({ red: "", yellow: "on", green: "" })
-				}></div>
+				onClick={() => setcolor({ yellow: "on" })}></div>
 			<div
 				className={`light green ${color.green}`}
-				onClick={() =>
-					setcolor({ red: "", yellow: "", green: "on" })
-				}></div>
+				onClick={() => setcolor({ green: "on" })}></div>
 		</div>
 	);
 };
