@@ -1,17 +1,6 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+# Traffic Light
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
-
-##### Download the boilerplate using git
-
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+Se ha realizado una página que muestra un semáforo que funciona cuando se clickea en cada unode los colores. Utilizando HTML, CSS y Js con React.
 
 ##### and install the npm package:
 ```
